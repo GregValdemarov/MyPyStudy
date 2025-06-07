@@ -11,7 +11,3 @@ def win(value_cards_p: int, value_cards_d: int) -> int:
 
 def contin(answer: str) -> bool:
 	return answer.lower().startswith('д')
-
-
-	
-	

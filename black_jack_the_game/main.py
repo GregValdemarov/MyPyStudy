@@ -1,6 +1,5 @@
 from src import func, classes
 
-
 is_game = True
 
 deck = classes.Deck_of_cards()
