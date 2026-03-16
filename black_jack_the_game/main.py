@@ -15,7 +15,7 @@ while is_game:
 	while True:
 		try: 
 			dill = int(input("Ваша ставка: "))
-			if dill > player.balance:
+			if dill > player.balance or dill <= 0:
 				print("Некорректная ставка!")
 				continue
 		except:
